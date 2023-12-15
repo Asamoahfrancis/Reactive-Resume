@@ -25,10 +25,12 @@ export const Footer = () => (
 
       <div className="relative col-start-4">
         <div className="absolute bottom-0 right-0 lg:space-x-2">
-          <LocaleSwitch />
+          {/*<LocaleSwitch />*/}
           <ThemeSwitch />
         </div>
       </div>
     </div>
   </footer>
 );
+
+

@@ -31,7 +31,7 @@ export const AuthLayout = () => {
           </Link>
 
           <div className="right-0 space-x-2 text-right lg:absolute lg:p-12 lg:text-center">
-            <LocaleSwitch />
+            {/*<LocaleSwitch />*/}
             <ThemeSwitch />
           </div>
         </div>
